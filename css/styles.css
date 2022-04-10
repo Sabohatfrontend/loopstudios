@@ -212,16 +212,26 @@ padding: 96px 96px 96px 96px;
   position: absolute;
   right: 0;
   top: 92px;
+  border: 1px solid #000;
   display: inline-block;
   padding: 13px 38px;
   white-space: nowrap;
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   font-size: 14px;
 line-height: 14px;
 letter-spacing: 5px;
 text-transform: uppercase;
   cursor: pointer;
+}
+
+.button:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.button:active{
+  opacity: 0.6;
 }
 
 .creation-lists {
